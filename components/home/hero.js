@@ -24,9 +24,15 @@ const Hero = () => {
                 >
                     <Typography
                         color="white"
-                        variant="h1"
+                        // variant={"h3"}
                         align="center"
                         noWrap
+                        sx={{
+                            fontSize: {
+                                md: '1.8rem',
+                                xs: '0.8rem'
+                            }
+                        }}
                     >
                         Trade your favorite NFTs now
                     </Typography>
@@ -52,14 +58,14 @@ const Hero = () => {
                                 size="large"
                                 variant="contained"
                                 sx={{ borderRadius: 4, width: {
-                                    md: 220,
-                                    xs: 140
+                                    md: 160,
+                                    xs: 80
                                 }}}
                                 style={{
                                     padding: '0.8rem 2.4rem',
                                     border: '1px solid #ff0077',
                                     fontWeight: 600,
-                                    fontSize: '1.2rem',
+                                    fontSize: '0.8rem',
                                     background: '#252936'
                                 }}
                             >
@@ -72,14 +78,14 @@ const Hero = () => {
                                 size="large"
                                 variant="outlined"
                                 sx={{ borderRadius: 4, width: {
-                                    md: 220,
-                                    xs: 140 
+                                    md: 160,
+                                    xs: 80 
                                 } }}
                                 style={{
                                     padding: '0.8rem 2.4rem',
                                     border: '1px solid #ff0077',
                                     fontWeight: 600,
-                                    fontSize: '1.2rem',
+                                    fontSize: '0.8rem',
                                     background: '#252936',
                                     color: 'white'
                                 }}

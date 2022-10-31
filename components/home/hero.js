@@ -30,7 +30,7 @@ const Hero = () => {
                         sx={{
                             fontSize: {
                                 md: '1.8rem',
-                                xs: '0.8rem'
+                                xs: '1.2rem'
                             }
                         }}
                     >
